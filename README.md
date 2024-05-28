@@ -12,8 +12,10 @@ The purpose of this script is to fill missing values in an Excel sheet and updat
   
 For example:
 
-CITY    PROVINCE  COUNTY      STATE
+**CITY           PROVINCE            COUNTY         STATE**
+
 Mumbai
+
 Mumbai            Maharashtra
         
 Consider this data set. The STATE, COUNTY, and PROVINCE values are empty. So, the forwa() function wil check whether the next column has the same City or not and if it does then it will detect the value in COUNTY column and paste it in the STATE column of the first row of this sample dataset.
