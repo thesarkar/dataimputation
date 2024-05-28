@@ -27,7 +27,7 @@ Consider this data set. The STATE, COUNTY, and PROVINCE values are empty. So, th
 
 **Process with Pandas** The script then uses pandas to read the saved workbook, convert all entries in the "STATE" column to strings, and find the most frequent province for each city.
 
-**Update the "STATE" Column:** It updates the "STATE" column in the DataFrame based on the most frequent province for each city.
+**Update the "STATE" Column:** It updates the "STATE" column in the DataFrame based on the most frequent value in "STATE" column for each "CITY".
 
 **Save the DataFrame:** Finally, the script saves the updated DataFrame in a new Excel file.
 
